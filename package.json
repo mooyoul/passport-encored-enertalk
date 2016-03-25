@@ -1,0 +1,43 @@
+{
+  "name": "passport-encored-enertalk",
+  "version": "1.0.0",
+  "description": "Encored Enertalk authentication strategy for Passport and Node.js.",
+  "main": "./lib/",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jshint --reporter=node_modules/jshint-stylish . && node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooyoul/passport-encored-enertalk.git"
+  },
+  "keywords": [
+    "passport",
+    "passport-strategy",
+    "strategy",
+    "encored",
+    "encoredtech",
+    "enertalk",
+    "oauth",
+    "oauth2"
+  ],
+  "author": "MooYeol Prescott Lee <mooyoul@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mooyoul/passport-encored-enertalk/issues"
+  },
+  "homepage": "https://github.com/mooyoul/passport-encored-enertalk#readme",
+  "dependencies": {
+    "passport-oauth": "^1.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-passport-strategy": "^1.0.0",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "mocha": "^2.4.5"
+  }
+}
